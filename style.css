@@ -1005,6 +1005,22 @@ footer .copyright{
         background-position: top 30% right 30%;
     }
 
+    #hero h2{
+        font-size: 22px;
+        line-height: .5;
+    }
+    #hero h1{
+        font-size: 22px;
+        line-height: 2;
+    }
+    #hero h4{
+        padding-bottom: 12px;
+    }
+    #hero p{
+        font-size: 12px;
+        margin: 2px 0 10px 0;
+    }
+
     #feature {
         justify-content: center;
     }
@@ -1021,9 +1037,6 @@ footer .copyright{
         margin: 15px;
     }
 
-    #banner {
-        height: 25vh;
-    }
 
     #sm-banner .banner-box {
         min-width: 100%;
@@ -1073,6 +1086,26 @@ footer .copyright{
         font-size: 38px;
     }
 
+    #hero{
+       background-image: none;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    #hero h2{
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    #hero h1 {
+        line-height: 1;
+    }
+    #hero p{
+        font-size: 13px;
+        margin: 15px 0 20px 0;
+    }
+
     #feature {
         justify-content: space-between;
     }
@@ -1086,13 +1119,16 @@ footer .copyright{
         width: 100%;
     }
     #banner{
-        height: 40vh;
+        height: 55vh;
     }
     #sm-banner .banner-box{
-        height: 40vh;
+        height: 50vh;
     }
     #sm-banner .banner-box2{
         margin-top: 20px;
+    }
+    #sm-banner h2 {
+        line-height: 2;
     }
 
     #banner3 {
