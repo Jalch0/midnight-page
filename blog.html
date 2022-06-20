@@ -16,16 +16,15 @@
     <!-- Header -->
 
     <section id="header">
-        <a href="#"><img src="/img/logo.png" class="logo" alt="" srcset=""></a>
-    
+        <a href="#"><img src="https://drive.google.com/uc?export=view&id=1jMyfy5KY-EuMdhhoZ_Q0UIAgCTTJ59Hk" class="logo" alt="" srcset=""></a>
         <div>
             <ul id="navbar">
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li><a href="shop.html">Catálogo</a></li>
+                <li><a class="active" href="blog.html">Previsualizador</a></li>
+                <li><a href="about.html">Nosotros</a></li>
+                <li><a href="contact.html">Contáctanos</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
                 <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
             </ul>
         </div>
@@ -38,16 +37,28 @@
     <!-- Page Header -->
         
     <section id="page-header" class="about-header">
-            <h2>Create your own shirt</h2>
-            <p>Upload your own design, and see how it can look with the shirt of your choice!</p>
+            <h2>Crea tu propia camiseta personalizada</h2>
+            <p>¡Sube tu propio diseño, y mira como se ve con la prenda de tu elección!</p>
     </section>
 
 
     <section id="create-container">
+        <h2>Selecciona tu diseño favorito (Solo puede ser PNG y sin fondo) <span>BETA</span></h2>
         <input type="file" id="image_input" accept="image/jpg">
 
         <div id="display_image">
             <div id="up_image"></div>
+        </div>
+        <div class="small-img-group-prev">
+            <div class="small-img-col-prev">
+                <img src="https://drive.google.com/uc?export=view&id=1p6yYOCFkqg-vua6-tNOWtyOVmsko2QyG" width="100%" class="small-img-prev" alt="">
+            </div>
+            <div class="small-img-col-prev">
+                <img src="https://drive.google.com/uc?export=view&id=1JsozhCQyI381vDwEongZe_tlOQV_xSVg" width="100%" class="small-img-prev" alt="">
+            </div>
+            <div class="small-img-col-prev">
+                <img src="https://drive.google.com/uc?export=view&id=1y86i5cHSl35_yl0zer7mulJumnOBN3jr" width="100%" class="small-img-prev" alt="">
+            </div>
         </div>
 
     </section>
@@ -103,6 +114,22 @@
             </div>
         </footer>
 
+
+    <script>
+        let MainImg = document.getElementById("display_image");
+        let smallimg = document.getElementsByClassName("small-img-prev");
+
+        smallimg[0].onclick = function(){
+            MainImg.style.backgroundImage = `url(${smallimg[0].src})`;
+        }
+        smallimg[1].onclick = function(){
+            MainImg.style.backgroundImage = `url(${smallimg[1].src})`;
+        }
+        smallimg[2].onclick = function(){
+            MainImg.style.backgroundImage = `url(${smallimg[2].src})`;
+            MainImg.style.backgroundSize = 'contain';
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,5 +1,6 @@
 :root {
     --principal-color: #F9F5E3;
+    --principal-color-hover: #eee3b5;
     --secondary-color: #403F4C;
     --secondary-color-bg:#e8f6ea;
     --product-bg-color:rgb(110, 110, 110);
@@ -311,12 +312,17 @@ body {
     height: 40px;
     line-height: 40px;
     border-radius: 50px;
-    background-color: #e8f6ea;
+    background-color: var(--principal-color);
     color:var(--secondary-color);
-    border: 1px solid #cce7d0;
+    border: 1px solid var(--principal-color);
     position:absolute;
     bottom:20px;
     right:10px;
+    transition: 0.3s;
+}
+
+#product1 .product .cart:hover{
+    background-color: var(--principal-color-hover);
 }
 
 #banner{
@@ -616,6 +622,8 @@ footer .copyright{
     margin-right: 50px;
 }
 
+
+
 .small-img-group{
     display: flex;
     justify-content: flex-start;
@@ -671,7 +679,7 @@ footer .copyright{
 /* About Page */
 
 #page-header.about-header{
-    background-image: url("img/about/banner.png");
+    background-image: url("https://drive.google.com/uc?export=view&id=1ZW-ynpVJWWx3KrI8oETZ7E7VWTc7d4hX");
 }
 
 #about-head {
@@ -921,14 +929,22 @@ footer .copyright{
     padding: 20px 0;
 }
 
+#create-container h2 {
+    font-size: 24px;
+}
+
+#create-container h2 span {
+    color: var(--first-color-logo);
+}
+
 #display_image{
     width: 500px;
     height: 500px;
-    border: 1px solid black;
-    background-image: url(/camisetablanca.png);
+    background-image: url(https://drive.google.com/uc?export=view&id=1p6yYOCFkqg-vua6-tNOWtyOVmsko2QyG);
     position: relative;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
 }
 
@@ -938,10 +954,22 @@ footer .copyright{
     height: 40%;
     top: 50%;
     left: 50%;
-    margin: -125px 0 0 -90px;
+    margin: -100px 0 0 -95px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.small-img-group-prev{
+    display: flex;
+    justify-content: center;
+}
+
+
+.small-img-col-prev{
+    flex-basis: 10%;
+    cursor: pointer;
+    background-color: var(--principal-color);
 }
 
 
