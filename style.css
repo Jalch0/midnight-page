@@ -3,7 +3,7 @@
     --principal-color-hover: #eee3b5;
     --secondary-color: #403F4C;
     --secondary-color-bg:#e8f6ea;
-    --product-bg-color:rgb(110, 110, 110);
+    --product-bg-color:rgb(113, 113, 113);
     --first-color-logo: #E7202A;
     --second-color-logo: #12B2DF;
 }
@@ -622,11 +622,19 @@ footer .copyright{
     margin-right: 50px;
 }
 
-
+#product-details .single-product-image img{
+    background-color: var(--product-bg-color);
+    border-radius: 20px;
+}
 
 .small-img-group{
+    margin-top: 20px;
     display: flex;
     justify-content: flex-start;
+}
+
+.small-img-group .small-img{
+    height: 100%;
 }
 
 .small-img-group .small-img-col:nth-child(2){

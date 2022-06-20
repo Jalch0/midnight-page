@@ -37,20 +37,12 @@
 
     <section id="product-details" class="section-p1">
         <div class="single-product-image">
-            <img src="https://drive.google.com/uc?export=view&id=1mqC31bTg47U14dTQ0YwrDrOIUpRy0nCN" width="100%" id="main-img" alt="">
-            <div class="small-img-group">
-                <div class="small-img-col">
-                    <img src="https://drive.google.com/uc?export=view&id=1mqC31bTg47U14dTQ0YwrDrOIUpRy0nCN" width="100%" class="small-img" alt="">
-                </div>
-                <div class="small-img-col">
-                    <img src="https://drive.google.com/uc?export=view&id=1Wxj_F8-Lz_ASi-maf8pmpClffoRM3zEd" width="100%" class="small-img" alt="">
-                </div>
-            </div>
+            <img src="https://drive.google.com/uc?export=view&id=1icPPau6HCrN5LRdDXUjo5ZZyfF4FGHNv" width="100%" id="main-img" alt="">
         </div>
 
         <div class="single-product-details">
             <h6>Inicio / Sweater</h6>
-            <h4>Sweater - Logo Rubius</h4>
+            <h4>Sweater - 90's Baby</h4>
             <h2>$25</h2>
             <select>
                 <option>Selecciona el tamaño</option>
@@ -76,6 +68,22 @@
         <h2>Otros productos</h2>
         <p>¡Explora nuestra colección!</p>
         <div class="product-container">
+            <div class="product" onclick="window.location.href='product-1.html'">
+                <img src="https://drive.google.com/uc?export=view&id=1mqC31bTg47U14dTQ0YwrDrOIUpRy0nCN" alt="">
+                <div class="description">
+                    <span>Sweater</span>
+                    <h5>Sweater - Logo Rubius</h5>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$25</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
             <div class="product" onclick="window.location.href='product-2.html'">
                 <img src="https://drive.google.com/uc?export=view&id=1riNRSHgJvubB3fUG11FgNlJ80hCyLQPq" alt="">
                 <div class="description">
@@ -96,22 +104,6 @@
                     <span>Sweater</span>
                     <h5>Sweater - Aguila Night</h5>
                     <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <h4>$25</h4>
-                </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
-            </div>
-            <div class="product" onclick="window.location.href='product-4.html'">
-                <img src="https://drive.google.com/uc?export=view&id=1icPPau6HCrN5LRdDXUjo5ZZyfF4FGHNv" alt="">
-                <div class="description">
-                    <span>Sweater</span>
-                    <h5>Sweater - 90's Baby</h5>
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -201,19 +193,6 @@
             <p>© 2022, Javier Labrador - MIDNIGHT</p>
         </div>
     </footer>
-
-    <script>
-        let MainImg = document.getElementById("main-img");
-        let smallimg = document.getElementsByClassName("small-img");
-
-
-        smallimg[0].onclick = function(){
-            MainImg.src = smallimg[0].src;
-        }
-        smallimg[1].onclick = function(){
-            MainImg.src = smallimg[1].src;
-        }
-    </script>
 
     <script src="/script.js"></script>
 </body>
