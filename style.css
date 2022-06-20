@@ -178,7 +178,7 @@ body {
     color: var(--secondary-color);
 }
 #hero button {
-    background-image: url("img/button.png");
+    background-image: url("https://drive.google.com/uc?export=view&id=1GWp-araK1UqDdlWWRYybKAsPEuVCZabc");
     background-color: transparent;
     color: var(--secondary-color);
     border: 0;
@@ -325,7 +325,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("img/banner/b2.jpg");
+    background-image: url("https://drive.google.com/uc?export=view&id=16rjig66J-vQWvjCbQzr7mHp_-bQziojI");
     width: 100%;
     height:40vh;
     background-size: cover;
@@ -374,7 +374,7 @@ body {
 
 
 #sm-banner .banner-box2{
-    background-image: url("img/banner/b10.jpg");
+    background-image: url("https://drive.google.com/uc?export=view&id=1v9vohyorQvzcU8n92OdRNRcUuW4KyeJ2");
 }
 
 #sm-banner h4{
@@ -570,7 +570,7 @@ footer .copyright{
     /* Shop Page */
 
 #page-header{
-    background-image: url("img/banner/b1.jpg");
+    background-image: url("https://drive.google.com/uc?export=view&id=1vWbqun6n1tV0i2L6Tvzw3QgJpi2TKc0a");
     width: 100%;
     height: 40vh;
     background-size: cover;
