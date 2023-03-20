@@ -178,7 +178,7 @@ body {
 #hero h1{
     color: var(--secondary-color);
 }
-#hero button {
+#hero a {
     background-image: url("https://drive.google.com/uc?export=view&id=1GWp-araK1UqDdlWWRYybKAsPEuVCZabc");
     background-color: transparent;
     color: var(--secondary-color);
@@ -188,6 +188,7 @@ body {
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
+    text-decoration: none;
 }
 
 #feature{
@@ -1247,4 +1248,8 @@ footer .copyright{
         padding: 20px;
     }
 
+}
+
+.about-p {
+    line-height: 1.5;
 }
